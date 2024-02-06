@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de League of Legends</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="banner">
+        <h1>Tienda de League of Legends</h1>
+    </div>
+    <div id="container"></div>
+    <div id="cart">
+        <div id="cart-content">
+            <h2>Carrito de compras</h2>
+            <ul id="cart-items"></ul>
+            <p id="total-price"></p>
+            <div id="resumen-carrito"></div>
+            <button onclick="confirmarCompra()">Finalizar Compra</button>
+            <div id="resumen-compra">
+                <h3>Resumen de Compra</h3>
+            </div>
+            <div id="rp-disponibles">RP Disponibles: <span id="rp-valor">10000</span> RP restantes.</div>
+        </div>
+    </div>
+    <script src="js/Ecomercioo.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
